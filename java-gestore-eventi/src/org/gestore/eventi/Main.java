@@ -4,7 +4,17 @@ public class Main {
 
     public static void main(String[] args) {
         
-        Evento provaEvento = new Evento("prova ", LocalDate.of(20,10,2025), 100);
+
+
+        /* TEST
+        Evento bellino = new Evento("prova ", LocalDate.of(25,10,12), 100);
+
+            bellino.setTitolo("bauu");
+            System.out.println(bellino.getTitolo()); */
+
+
+
+            
 
     }
 
