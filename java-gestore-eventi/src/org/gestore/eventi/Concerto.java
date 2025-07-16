@@ -37,6 +37,8 @@ public void setPrezzo(BigDecimal prezzo) {
     this.prezzo = prezzo;
 }
 
+
+//Override evento concerto
 @Override
 public String toString() {
 

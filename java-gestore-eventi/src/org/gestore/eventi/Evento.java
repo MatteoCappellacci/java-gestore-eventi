@@ -46,7 +46,7 @@ public class Evento {
    public int getPostiPrenotati() {
     return this.postiPrenotati;
 }
-
+ 
 
 // metodo prenotazione
 
@@ -75,6 +75,8 @@ public void disdici() {
 
     }
 }
+
+//Override evento
 @Override
 public String toString() {
     return "Evento: " + getTitolo() + " - Data: " + getData() + " - PostiPrenotati: [" +

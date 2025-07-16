@@ -19,8 +19,7 @@ public class Main {
 
         
 
-        Concerto concertoneRoma = new Concerto("Roma2025", LocalDate.of(2025, 9, 15), 1000, 0,
-                LocalTime.of(11, 30), new BigDecimal(30.00));
+        Concerto concertoneRoma = new Concerto("Roma2025", LocalDate.of(2025, 9, 15), 1000, 0,LocalTime.of(11, 30), new BigDecimal(30.00));
 
         Concerto concertoneMilano = new Concerto("Milano2026", LocalDate.of(2026, 9, 15), 1000, 0, LocalTime.of(11, 30), new BigDecimal(30.00));
                
@@ -38,7 +37,7 @@ public class Main {
 
 
 
-System.out.println("\nQuale concerto vuoi selezionare? (1 = concertoneRoma, 2 = concertoneMilano, 3 = concertoneBologna)" );
+       System.out.println("\nQuale concerto vuoi selezionare? (1 = concertoneRoma, 2 = concertoneMilano, 3 = concertoneBologna)" );
 
 
         int sceltaConcerto = scanner.nextInt();
@@ -103,8 +102,7 @@ System.out.println("\nQuale concerto vuoi selezionare? (1 = concertoneRoma, 2 = 
         
         scanner.close();
 
-
-
+       
     }
 
     
