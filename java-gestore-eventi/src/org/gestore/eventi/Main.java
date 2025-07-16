@@ -9,13 +9,15 @@ public class Main {
         
 
 
-        /* TEST
+         /*  PROVA  EVENTO , METODI + TO STRING
         Evento bellino = new Evento("prova ", LocalDate.of(25,10,12), 100);
 
             bellino.setTitolo("bauu");
-            System.out.println(bellino.getTitolo()); */
+            System.out.println(bellino.getTitolo()); 
 
+            System.out.println(bellino.toString()); */
 
+        
 
         Concerto concertoneRoma = new Concerto("Roma2025", LocalDate.of(2025, 9, 15), 1000, 0,
                 LocalTime.of(11, 30), new BigDecimal(30.00));
@@ -97,6 +99,8 @@ System.out.println("\nQuale concerto vuoi selezionare? (1 = concertoneRoma, 2 = 
                 break;
         }
 
+
+        
         scanner.close();
 
 
